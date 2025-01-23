@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Navbar.css";
 import Switch from "./Switch";
 import Notification from "./Notification";

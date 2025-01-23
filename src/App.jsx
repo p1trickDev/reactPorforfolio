@@ -1,4 +1,4 @@
-// import React from "react";
+//import react from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Pattern from "./components/Pattern";
@@ -15,4 +15,3 @@ const App = () => {
 };
 
 export default App;
-    
