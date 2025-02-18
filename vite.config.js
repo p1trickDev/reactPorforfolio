@@ -9,5 +9,4 @@ export default defineConfig({
       external: ['styled-components']
     }
   },
-  base: '/',
 });
