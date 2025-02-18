@@ -26,11 +26,11 @@
   color: #f5e7ce;
   text-decoration: none;
   transition: color 0.3s;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .navbar-links a:hover {
-  color: #f39c12;
+  color: #e31b6d;
 }
 
 .navbar-switch {

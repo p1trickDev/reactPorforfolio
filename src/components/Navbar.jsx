@@ -6,8 +6,12 @@ import Notification from "./Notification";
 const Navbar = () => {
   const [notification, setNotification] = useState(null);
 
-  const handleLinkClick = (message) => {
-    setNotification(message);
+  const handleLinkClick = (event, sectionId) => {
+    event.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -17,7 +21,7 @@ const Navbar = () => {
         <li>
           <a
             href="#home"
-            onClick={() => handleLinkClick("Work in progress!!!")}
+            onClick={(e) => handleLinkClick(e, "home")}
           >
             Home
           </a>
@@ -25,15 +29,16 @@ const Navbar = () => {
         <li>
           <a
             href="#about"
-            onClick={() => handleLinkClick("Work in progress!!!")}
+            onClick={(e) => handleLinkClick(e, "about")}
           >
             About
           </a>
         </li>
+        <li><a href="#skills">Skills</a></li>
         <li>
           <a
             href="#projects"
-            onClick={() => handleLinkClick("Work in progress!!!")}
+            onClick={(e) => handleLinkClick(e, "projects")}
           >
             Projects
           </a>
@@ -41,7 +46,7 @@ const Navbar = () => {
         <li>
           <a
             href="#contact"
-            onClick={() => handleLinkClick("Work in progress!!!")}
+            onClick={(e) => handleLinkClick(e, "contact")}
           >
             Contact
           </a>

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url("../assets/jinx.webp") no-repeat center center/cover;
+  background: url("../assets/WallPaper 23.png") no-repeat center center/cover;
   color: #f5e7ce;
   text-align: center;
 }
@@ -26,8 +26,8 @@
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 1.50rem;
+  /* font-weight: bold; */
 }
 
 @keyframes fadeIn {

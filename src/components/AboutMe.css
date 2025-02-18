@@ -1,0 +1,83 @@
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  background-color: #111821;
+  
+}
+
+.about-me h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.about-me-content {
+  display: inline-block;
+  padding: 2rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: box-shadow 0.3s, border 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-me-content:hover {
+  border: 2px solid #f39c12;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  position: relative;
+  border: 2px solid #f5e7ce;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  pointer-events: none;
+  transition: border-color 0.3s;
+}
+
+.card:hover::before {
+  border-color: #e31b6d
+COPY
+
+}
+
+.aboutme-card {
+  max-width: 600px;
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: #111821;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: border 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.aboutme-card:hover {
+  border: 2px solid #e31b6d;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
