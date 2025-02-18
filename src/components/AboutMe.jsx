@@ -8,7 +8,7 @@ const AboutMe = () => {
         
         <div className="card-content">
           <p>
-            Hello! I am an aspiring full-stack developer with experience in various tools and modern technologies.
+            Hello! I am an full-stack developer with experience in various tools and modern technologies.
             Simplicity and Efficiency are my core values. 
             My motto: "Create like a god, command like a king, work like a slave."
           </p>
